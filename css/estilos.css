@@ -85,10 +85,10 @@ button:active {
   color: #ffffff;
   font-size: 18px;
 }
-.banner1 .h3n m-3 {
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 25px;
+.banner1 .h3n {
+  font-weight: bold;
+  color: #171717;
+  font-size: 30px;
 }
 
 .hero {

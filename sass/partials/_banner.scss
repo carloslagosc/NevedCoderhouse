@@ -5,8 +5,8 @@
     .pn{
         @include pstyle-night;
     }
-    .h3n m-3{
-        @include H3style-night;
+    .h3n{
+        @include H3style-day;
     }
 }
 
