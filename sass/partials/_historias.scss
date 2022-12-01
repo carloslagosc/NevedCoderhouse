@@ -1,0 +1,44 @@
+
+.section-historias{
+    background-color: black;
+    position: initial;
+
+    .section-historias-container1{
+        display: flex;
+        justify-content: center;
+        .historias-text{
+            padding-left: 2rem;
+            padding-right: 2rem;
+            display: flex;
+            align-items: center;
+            .historias-flex{
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .pd{
+                @include pstyle-night;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            }
+            .h1d{
+                @include H2style-night;
+
+                        }
+    }
+    .section-historias-container2{
+        min-height: 80vh;
+        .container-video{
+            margin-top: 40px;
+            width: 100vw;
+            max-width: 600px;
+            min-width: 200px;
+            margin-bottom: 5rem;
+        .video{
+                    width: 90%;
+                    border-radius: 20px;
+                }
+        }
+    }
+}
+

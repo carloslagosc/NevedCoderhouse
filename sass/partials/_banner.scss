@@ -1,0 +1,14 @@
+.banner{
+    background-image:url(../../img/banner4.png);
+    height: 30vh;
+    max-width: 100%;
+    background-size: cover;
+    .pn{
+        @include pstyle-night;
+    }
+    .h3n{
+        @include H3style-night;
+    }
+}
+
+

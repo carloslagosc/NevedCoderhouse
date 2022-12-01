@@ -1,0 +1,55 @@
+// COLORS
+
+$color-primary:#DCFF00;
+$color-secondary: #171717 ;
+$color-white: #ffffff;
+$color-gray :#484b66 ;
+
+// FONTS
+
+@mixin H1style-day  {
+    font-weight: bold;
+    color: $color-secondary;
+    font-size: 65px;
+}
+
+@mixin H1style-night  {
+    font-weight: bold;
+    color: $color-white;
+    font-size: 50px;
+}
+
+@mixin H2style-day  {
+    font-weight: bold;
+    color: $color-secondary;
+    font-size: 40px;
+}
+@mixin H2style-night  {
+    font-weight: bold;
+    color: $color-white;
+    font-size: 40px;
+}
+
+@mixin H3style-day  {
+    font-weight: bold;
+    color: $color-secondary;
+    font-size: 30px;
+}
+@mixin H3style-night  {
+    font-weight: 700 ;
+    color: $color-white;
+    font-size: 25px;
+
+}
+
+@mixin pstyle-day  {
+    font-weight: 300;
+    color:$color-gray;
+    font-size: 18px;
+
+}
+@mixin pstyle-night  {
+    font-weight: 300;
+    color:$color-white;
+    font-size: 18px;
+}

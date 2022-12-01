@@ -1,0 +1,20 @@
+
+
+    .aboutus-container{
+        margin-top:600px;
+        background-color:$color-secondary;
+        .col-xs{
+            .text{
+                .h1d{
+                    @include H2style-night
+                }
+                .pd{
+                    @include pstyle-night
+                }
+            }
+        }
+    .container-img{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    }

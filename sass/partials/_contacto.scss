@@ -1,0 +1,28 @@
+.main-contact{
+    background-color: $color-secondary;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    .container-contact{
+        background-color: $color-secondary;
+        .card{
+            background-color: rgb(41, 41, 41);
+            border-radius: 1rem;
+            .h3n-container{
+                .h3n{
+                    @include H3style-night
+                }
+            }
+        }
+    }
+    .h2n{
+        @include H2style-night
+    }
+    .iframe-container{
+        border-radius: 3rem;
+        .iframe{
+            min-width: 300px;
+            border-radius: 1rem;
+
+        }
+    }
+}

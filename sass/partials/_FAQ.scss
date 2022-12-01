@@ -1,0 +1,8 @@
+.FAQ{
+    margin: 2rem;
+    .accordion{
+        .h2{
+            @include H2style-day;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.hero{
+    width: 100vw;
+    height: initial;
+    padding: 2em;
+    .col-xs {
+        .hero_text{
+            h1{
+                @include H1style-night;
+            }
+            p{
+                @include pstyle-night;
+            }
+            }
+        }
+        
+        .column-container {
+            padding: 2rem;
+            .container-img{
+                    width: 75vw;
+                    max-width: 300px;
+                    min-width: 50px;
+                    margin: auto;
+                    background-color: chartreuse;
+                .hero-img{
+                            width: 100%;
+                            background-color:$color-secondary ;
+                        }
+                }
+        }
+        }
