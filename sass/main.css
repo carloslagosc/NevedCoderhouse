@@ -51,6 +51,12 @@ header {
           justify-content: center;
 }
 
+.button-primary a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #171717;
+}
+
 button:hover {
   background-color: #c8e714;
   -webkit-box-shadow: 0px 15px 20px rgba(216, 242, 21, 0.413);
@@ -89,8 +95,14 @@ button:active {
   color: white;
 }
 
+.button-secondary a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .banner {
-  background-image: url(../../img/banner4.png);
+  background-image: url(../../img/fondo.png);
   height: 30vh;
   max-width: 100%;
   background-size: cover;
@@ -103,9 +115,9 @@ button:active {
 }
 
 .banner .h3n {
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .hero {
@@ -117,7 +129,7 @@ button:active {
 .hero .col-xs .hero_text h1 {
   font-weight: bold;
   color: #ffffff;
-  font-size: 55px;
+  font-size: 50px;
 }
 
 .hero .col-xs .hero_text p {
@@ -141,20 +153,6 @@ button:active {
 .hero .column-container .container-img .hero-img {
   width: 100%;
   background-color: #171717;
-}
-
-.container-video {
-  margin-top: 40px;
-  width: 100vw;
-  max-width: 600px;
-  min-width: 200px;
-  margin-bottom: 5rem;
-  background-color: #4fff03;
-}
-
-.container-video .video {
-  width: 100%;
-  background-color: bisque;
 }
 
 .main-footer {
@@ -191,6 +189,10 @@ button:active {
   margin-bottom: 150px;
 }
 
+.FAQ {
+  margin: 2rem;
+}
+
 .FAQ .accordion .h2 {
   font-weight: bold;
   color: #171717;
@@ -205,11 +207,10 @@ button:active {
 
 .section-historias {
   background-color: black;
-  height: 110vh;
+  position: initial;
 }
 
 .section-historias .section-historias-container1 {
-  background-color: #ed6464;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,7 +222,6 @@ button:active {
 .section-historias .section-historias-container1 .historias-text {
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color: #2bff00;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,12 +231,8 @@ button:active {
 }
 
 .section-historias .section-historias-container1 .historias-text .historias-flex {
-  font-weight: bold;
-  color: #ffffff;
-  font-size: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
-  background-color: cornflowerblue;
 }
 
 .section-historias .section-historias-container1 .historias-text .pd {
@@ -247,16 +243,27 @@ button:active {
   margin-bottom: 30px;
 }
 
+.section-historias .section-historias-container1 .h1d {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 40px;
+}
+
 .section-historias .section-historias-container2 {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .section-historias .section-historias-container2 .container-video {
-  padding: 20px;
+  margin-top: 40px;
+  width: 100vw;
+  max-width: 600px;
+  min-width: 200px;
+  margin-bottom: 5rem;
 }
 
 .section-historias .section-historias-container2 .container-video .video {
-  border-radius: 1rem;
+  width: 90%;
+  border-radius: 20px;
 }
 
 .main-contact {
@@ -275,7 +282,7 @@ button:active {
 }
 
 .main-contact .container-contact .card .h3n-container .h3n {
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
   font-size: 25px;
 }
