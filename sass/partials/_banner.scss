@@ -2,11 +2,10 @@
     height: 30vh;
     max-width: 100%;
     background-color: rgb(3, 163, 256);
-    background-image: none;
     .pn{
         @include pstyle-night;
     }
-    .h3n{
+    .h3n m-3{
         @include H3style-night;
     }
 }
