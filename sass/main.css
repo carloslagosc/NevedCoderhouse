@@ -110,14 +110,14 @@ button:active {
 
 .banner1 .pn {
   font-weight: 300;
-  color: #484b66;
+  color: #ffffff;
   font-size: 18px;
 }
 
 .banner1 .h3n {
-  font-weight: bold;
-  color: #171717;
-  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
 }
 
 .hero {

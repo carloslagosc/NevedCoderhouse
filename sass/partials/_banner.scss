@@ -4,10 +4,10 @@
     background-color: rgb(3, 163, 256);
     background-image: none;
     .pn{
-        @include pstyle-day;
+        @include pstyle-night;
     }
     .h3n{
-        @include H3style-day;
+        @include H3style-night;
     }
 }
 
