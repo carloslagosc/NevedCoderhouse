@@ -104,19 +104,19 @@ button:active {
 .banner1 {
   height: 30vh;
   max-width: 100%;
-  background-color: #0389ff;
+  background-color: #03a3ff;
 }
 
 .banner1 .pn {
   font-weight: 300;
-  color: #ffffff;
+  color: #484b66;
   font-size: 18px;
 }
 
 .banner1 .h3n {
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 25px;
+  font-weight: bold;
+  color: #171717;
+  font-size: 30px;
 }
 
 .hero {
