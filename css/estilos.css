@@ -80,6 +80,7 @@ button:active {
   max-width: 100%;
   background-size: cover;
   background-color: aqua;
+  background-image: url(../../img/banner4.png);
 }
 .banner1 .pn {
   font-weight: 300;
