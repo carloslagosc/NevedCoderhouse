@@ -101,20 +101,20 @@ button:active {
   color: #ffffff;
 }
 
-.banner {
+.banner1 {
   background-image: url(../../img/banner4.png);
   height: 30vh;
   max-width: 100%;
   background-size: cover;
 }
 
-.banner .pn {
+.banner1 .pn {
   font-weight: 300;
   color: #ffffff;
   font-size: 18px;
 }
 
-.banner .h3n {
+.banner1 .h3n {
   font-weight: 700;
   color: #ffffff;
   font-size: 25px;
