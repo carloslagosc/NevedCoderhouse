@@ -1,9 +1,8 @@
 .banner1{
     height: 30vh;
     max-width: 100%;
-    background-size: cover;
-    background-color:aqua;
     background-image: url(../../img/banner4.png);
+    background-size: cover;
     .pn{
         @include pstyle-night;
     }
