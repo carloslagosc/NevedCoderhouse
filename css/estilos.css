@@ -79,6 +79,7 @@ button:active {
   height: 30vh;
   max-width: 100%;
   background-color: rgb(3, 163, 255);
+  background-image: none;
 }
 .banner1 .pn {
   font-weight: 300;
