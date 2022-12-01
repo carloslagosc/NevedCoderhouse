@@ -4,10 +4,10 @@
     background-size: cover;
     background-color: aqua;
     .pn{
-        @include pstyle-night;
+        @include pstyle-day;
     }
     .h3n{
-        @include H3style-night;
+        @include H3style-day;
     }
 }
 
