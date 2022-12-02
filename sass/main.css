@@ -106,8 +106,8 @@ button:active {
   height: 30vh;
   max-width: 100%;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, right top, left top, from(#8E54E9), to(#4776E6));
-  background: linear-gradient(to left, #8E54E9, #4776E6);
+  background: -webkit-gradient(linear, right top, left top, from(#5732e8), to(#47c9e6));
+  background: linear-gradient(to left, #5732e8, #47c9e6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
