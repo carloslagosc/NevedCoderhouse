@@ -11,6 +11,10 @@
                 @include pstyle-night;
             }
             }
+            a{
+            list-style-type: none;
+            text-decoration: none;
+            }
         }
         
         .column-container {

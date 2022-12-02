@@ -10,6 +10,10 @@
     .h3n{
         @include H3style-night;
     }
+    a{
+        list-style-type: none;
+        text-decoration: none;
+        }
 }
 
 

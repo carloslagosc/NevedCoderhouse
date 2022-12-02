@@ -49,6 +49,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-decoration: none;
 }
 
 .button-primary a {
@@ -122,6 +123,11 @@ button:active {
   font-size: 25px;
 }
 
+.banner1 a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .hero {
   width: 100vw;
   height: initial;
@@ -138,6 +144,11 @@ button:active {
   font-weight: 300;
   color: #ffffff;
   font-size: 18px;
+}
+
+.hero .col-xs a {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .hero .column-container {
@@ -165,7 +176,11 @@ button:active {
   color: #171717;
 }
 
-.main-footer svg {
+.main-footer a {
+  text-decoration: none;
+}
+
+.main-footer a svg {
   color: #171717;
 }
 
